@@ -24,7 +24,6 @@ public class ContactData {
     public String getFirstnsme() {
         return firstnsme;
     }
-
     public String getEmail() {
         return email;
     }
