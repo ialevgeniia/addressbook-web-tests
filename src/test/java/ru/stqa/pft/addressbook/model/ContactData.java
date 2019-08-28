@@ -6,10 +6,10 @@ public class ContactData {
     private final String firstnsme;
     private final String email;
 
-    public ContactData(String lastname, String mobile, String firstnsme, String email) {
+    public ContactData(String lastname, String mobile, String firstname, String email) {
         this.lastname = lastname;
         this.mobile = mobile;
-        this.firstnsme = firstnsme;
+        this.firstnsme = firstname;
         this.email = email;
     }
 
@@ -28,5 +28,4 @@ public class ContactData {
     public String getEmail() {
         return email;
     }
-
 }
